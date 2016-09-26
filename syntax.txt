@@ -14,3 +14,16 @@ git commit -m "Comment"
 Готово.
 
 Клонирование:
+git clone https:/
+
+Создание новой ветки:
+git branch name - создание
+git checkout name - подключение
+Проверить произошло ли подключение: git branch
+
+Список коммитов:
+git log --graph --all --decorate --online
+graph - построит псевдографикой то, как выглядит дерево наших комминтов
+all - всех
+decorate - раскрасит
+online - в одну линию, не выводя лишнюю инфу
