@@ -1,0 +1,16 @@
+1) Один раз делается:
+git config --global user.name "Dmitry Dadeco"
+git config --global user.email "dmitrydadeco@gmail.com"
+2) Проинициализировать директорию: git init
+3) 
+git status - что отслеживается
+git add . - отследить все файлы дирректории
+4) Создание коммита:
+git commit -m "Comment"
+5) 
+Определяем удаленный репозиторий: git remote add origin https://github.com/DimaDaxDadeco/syntax-git.git
+Подключение к гитхабу: git push -u origin master
+Вводим логин и пароль.
+Готово.
+
+Клонирование:
